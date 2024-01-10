@@ -1,0 +1,54 @@
+Iniciando o projeto Blog de gatos
+
+
+1. Estrutura inicial HTML e CSS
+
+
+* HTML *
+
+1 - Criar as tags básicas
+2 - Dentro do Body dividir o corpo da página em: 
+    2.1 - Header, Main e Footer;
+    2.2 - Colocar todas as tagas dentro de uma div com o id de nome app
+    
+    
+
+* CSS *
+
+1 - Criar as classes iniciais de arquivo .css: 
+    1.1 Zerar as margens
+    1.2 Zerar os paddings
+    1.3 Box sizing como content box
+    1.4 As fontes smoothings - Vendor prefixes
+    1.5 No root colocar o font size como 62.5% para trabalhar com a unidade de medida rem, para já trabalhar a responsividade.
+    1.6 Na tag body, voltar o font size para 16px padrão, utilizando 1.6rem
+
+    OBS. Font fascia
+
+-----------------------------------------------------------------------------------------------------------
+
+
+
+2. Estrutura em grid com header e footer fixos
+
+* HTML *
+
+  1 Após criar a classe container no doc .css essas foram aplicadas dentro das tags header, main e footer. 
+
+
+
+* CSS *
+
+1 - Criar as classe #app 
+    1.1 Display é grid - Isso fará com que o conteúdo fique separado por linhas
+    1.2 Height - Receber a altura de 100vh para todos que todos os elemtentos se dividam conforme o espaços
+    1.3 Grid template rows - Aqui será definda como a altura será ajustada entre o conteúdo:
+        Header - max-content = máximo do conteúdo | Main = 1fr de tudo o que tiver | Footer - max-content = máximo de conteúdo.
+
+2 - Criar a classe .container 
+    
+    Na página existem limites entre as laterias e paddings superior e inferior.
+    Como os limites são em todo o corpo da página, é necessário criar uma classe no documento html e terá esse nome de container.
+
+
+
